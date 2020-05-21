@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Playground - JavaScript 101</title>
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/select2/dist/css/select2.min.css">
+  </head>
+  <body>
+    <div class="container text-center">
+      <select class="select2" name="country">
+        <option value="AL">Alabama</option>
+        <option value="WY">Wyoming</option>
+        <option value="SP">São Paulo</option>
+      </select>
+
+      <textarea class="form-control" id="editor" rows="4"></textarea>
+      <div id="preview"></div>
+
+      <form action="#" class="form-inline justify-content-center" id="search-movies">
+        <input id="search" type="text" class="form-control">
+        <input id="submit" type="submit" value="Search" class="btn btn-primary">
+      </form>
+
+      <ul id="movies" class="list-group list-group-horizontal list-inline"></ul>
+    </div>
+
+    <!-- Add some HTML in here -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
